@@ -22,3 +22,6 @@ web前端课程设计作品，采用了html+css+js+php，模仿某盗版网站
 
 ## 搭建该项目
 
+git clone https://github.com/pwjcw/WebKs.git&cd WebKs
+docker-compose up -d
+接下来访问http://ip:6655/

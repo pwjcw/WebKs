@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.top_img{
+    /* background: url(../images/3.png); */
+    /* 调用了动态随机图片api */
+    background: url(http://imgapi.xl0408.top/index.php) center center;
+    background-size: cover;
+    height: 184px;
+}
+.con{
+    display: flex;
+}
+#top_img_font{
+    padding-left: 50%;
+    line-height: 184px;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+.con_left{
+    width: 276px;
+    height: 246px;
+    margin: 30px 30px;
+    border-radius: 12px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#con_left_img{
+    border-radius: 50px;
+}
+.name{  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#name-attribute{
+    color: white;
+    border-radius: 5px;
+    background-color: dodgerblue;
+}
+.con_card{
+    width: 270px;
+    height: 106px;
+    background-color: cornflowerblue;
+    border-radius: 8px;
+}
+#fload{
+    float: right;
+    font-size: 18px;
+    font-weight: 600;
+    color: wheat;
+    padding-top: 8px;
+    padding-right: 12px;
+}
+.card_font{
+    padding-top: 20px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+}
+.con_right_top{
+    padding-top: 70px;
+    width: 1400px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.data_body{
+    background-color: white;
+    margin-top: -18%;
+    margin-left: 22%;
+    margin-right: 10%;
+    height: 500px;
+    border-radius: 10px;
+    padding: 50px;
+}
+#data_body_top{
+    color: #555;
+    /* padding: 20px; */
+}
+.data_body_con{
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+}
+.input-con{
+    color: #aaa;
+    border: 0;
+    height: 30px;
+    background-color: #eee;
+}
+.data_body_con_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.data_body_con_column{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.page_foot{
+    display: flex;
+    flex-direction: column;
+
+}
+#user{
+    background-color: #f5f5f5;
+    border: 0;
+}
+#submit{    
+    width: 200px;
+    height: 30px;
+    border: 0;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 4px;
+    margin-left: 69%;
+}
